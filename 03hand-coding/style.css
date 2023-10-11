@@ -1,0 +1,113 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+/* Header Stuff */
+h1, h3, h4, h5, h6 {
+    font-family: 'Quintessential', cursive; /* Use Quintessential for headers */
+}
+header h2 {
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+}
+header {
+    font-size: 1rem;
+    background-color: #F3E9E0;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #000000;
+}
+header p {
+    margin: 0;
+    color:#000000;
+    letter-spacing: 10px;
+}
+/* Nav Stuff */
+nav {
+    background-color: #F3E9E0
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 0;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #3e4917;
+    font-weight: 700;
+    display: block;
+    padding: .85rem 2rem;
+}
+nav a:hover {
+    color: #CDA95B;
+}
+/* Main */
+img{
+    max-width: 40%;
+    max-height: 40%
+    }
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #232523;
+}
+main h2{
+    color: #EA8889; 
+}
+main p {
+    color:#3e4917;
+    margin: 0 0 .3rem 0;
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color: #CDA95B;
+}
+main dl dt {
+    color: #3e4917;
+    font-weight: 700;
+}
+main dl dd {
+    color: #232523;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem
+}
+main address {
+    font-style: normal;
+    background-color: #F3E9E0;
+    font-weight: 500;
+    padding: .5rem;
+    width: 12rem;
+    border: 1px solid #232523 ;
+    border-radius: .2rem;
+}
+main a {
+    color: #3e4917
+}
+main a:hover {
+    color: #EA8889;
+}
+/* Footer Stuff Here */
+footer {
+    background-color: #F3E9E0;
+    text-align: center;
+    color: #000000;
+    padding: 1rem;
+    font-size: .8rem;
+}
+footer a {
+    color: #3e4917;
+}
