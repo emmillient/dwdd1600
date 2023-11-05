@@ -150,7 +150,6 @@ div.locationfigure {
 }
 
 figure.location {
-    text-wrap: wrap;
     text-align: center;
     width: 30%;
     float: right;
