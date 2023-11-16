@@ -29,7 +29,7 @@ header p {
     letter-spacing: 2px;
 }
 
-/* smal screens */
+/* small screens */
 @media only screen and (max-width: 600px) {
 nav ul {
     margin: 0;
@@ -48,7 +48,7 @@ nav a {
 }
 nav .active a {
     background-color:#8C501B;
-    background-image: linear-gradient(to bottom #8b5022, #653a19);
+    background-image: linear-gradient(to bottom, #8b5022, #653a19);
     color: white;
 
 }
