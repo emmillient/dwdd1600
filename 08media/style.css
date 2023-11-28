@@ -570,12 +570,14 @@ form {
     border: 1px solid #785E4D;
     border-radius: 3px;
     margin-bottom: 1rem;
+    font-family: 'Poppin', sans-serif
 }
 
 .myForm legend {
     color: #785E4D;
     font-size: 0.8rem;
     margin-left: .5rem;
+
 }
 
 .myForm label {
@@ -597,9 +599,9 @@ form {
 .myForm [type=email],
 .myForm textarea {
     border: solid 1px #888;
-    padding: 4.7rem;
+    padding: .47rem;
     width: 300px;
-    border-radius: 4.7rem;
+    border-radius: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
