@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<!-- META DATA & HEADER -->
+
+<head>
+    <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial - scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Emma Lam">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Quintessential&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--HEADER / NAV BAR -->
+        <div class="menu">
+            <div class="logobar">
+                <div class="header-icon">
+                    <img src="images/logo.png" alt="PeaceonEarthLogo">
+                </div>
+                <header>
+                    <h1>Peace on Earth</h1>
+                    <h2>Good Coffee. Good People</h2>
+                </header>
+            </div>
+    
+            <!-- NAVIGATION -->
+            <div class="nav-pages">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="menu.html">Menu</a></li>
+                        <li><a href="our-roots.html">Our Roots</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    <!--CONTENT-->
+    <main>
+        <div class="menu-hero">
+            <h1>Menu</h1>
+        </div>
+        <!-- COPY TEXT FOR ORDERING + OPTIONS -->
+        <!-- TEST SCRIPT FOR CLICKING BUTTONS? IDK WHAT IM DOIN-->
+        <script>
+            function scrollToSection(sectionId) {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        </script>
+        <!--END OF SCRIPT-->
+        <div class="drinks">
+            <h1>Drinks</h1>
+            <div class="buttons">
+                <button onclick="scrollToSection('coffee')">Coffee</button>
+                <button onclick="scrollToSection('tea')">Tea</button>
+                <button onclick="scrollToSection('spirits')">Spirits</button>
+            </div>
+        </div>
+
+        <div class="menu-row">
+        <!--ITEMS START HERE-->
+        <div class="menu-items">
+            <h1 id="coffee">Coffee</h1>
+            <div class="item-grid">
+            <div class="menu-item">
+                <h2>Espresso</h2>
+                <p>A strong and concentrated coffee made by forcing a small amount of nearly boiling water through
+                    finely-ground coffee beans.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Cappuccino</h2>
+                <p>Espresso mixed with steamed milk and topped with a layer of frothed milk, often dusted with cocoa
+                    powder or cinnamon.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Latte</h2>
+                <p>Espresso with a generous amount of steamed milk, resulting in a creamy and smooth coffee with a mild
+                    espresso flavor.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Mocha</h2>
+                <p>Espresso mixed with hot chocolate, steamed milk, and topped with whipped cream. A perfect blend of
+                    coffee and chocolate.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Americano</h2>
+                <p>Espresso shots diluted with hot water, resulting in a coffee that's similar in strength to regular
+                    drip coffee.</p>
+            </div>
+            </div>
+            <h1 id="tea">Tea</h1>
+            <div class="item-grid">
+            
+            <div class="menu-item">
+                <h2>Green Tea</h2>
+                <p>A light and refreshing tea made from unoxidized leaves, known for its grassy and vegetal flavor.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Earl Grey</h2>
+                <p>Black tea flavored with bergamot oil, creating a citrusy and aromatic tea with a slightly sweet
+                    undertone.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Chamomile Tea</h2>
+                <p>A caffeine-free herbal tea made from chamomile flowers, known for its calming and soothing
+                    properties.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Oolong Tea</h2>
+                <p>A partially oxidized tea with a range of flavors, from floral and fruity to rich and roasted,
+                    depending on the variety.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Peppermint Tea</h2>
+                <p>A herbal tea made from peppermint leaves, offering a refreshing and minty flavor, perfect for
+                    relaxation.</p>
+            </div>
+        </div>
+            <h1 id="spirits">Spirits</h1>
+            <div class="item-grid">
+            <div class="menu-item">
+                <h2>Whiskey Sour</h2>
+                <p>A cocktail made with whiskey, lemon juice, and simple syrup, typically served with a maraschino
+                    cherry and a slice of orange.</p>
+
+            </div>
+
+            <div class="menu-item">
+                <h2>Martini</h2>
+                <p>An iconic cocktail made with gin or vodka, often served in a chilled glass and garnished with an
+                    olive or lemon twist.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Mojito</h2>
+                <p>A Cuban highball cocktail made with white rum, sugar, lime juice, mint leaves, and soda water,
+                    perfect for a tropical escape.</p>
+            </div>
+
+            <div class="menu-item">
+                <h2>Old Fashioned</h2>
+                <p>A classic cocktail made with bourbon or rye whiskey, sugar, and bitters, often garnished with a
+                    citrus twist and a cherry.</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- FORM START HERE -->
+
+        <form method="get" class="myForm" action="thanks.html">
+            <h1>Order a Custom Latte</h1>
+            <p>Here you can customize a single latte and have it ready for you by the time you arrive on location. <br><br><strong>Expected wait time is 5 mins after order!</strong></p><br>
+            <fieldset>
+                <!-- Customer Information -->
+                <legend>Customer Information</legend>
+                <label>First Name* <input type="text" name="fname" required class="myForm"></label>
+                <label>Last Name* <input type="text" name="lname" required class="myForm"></label>
+                <label>Email Address* <input type="email" name="email" required placeholder="youremail@example.com" class="myForm"></label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="871-335-6543"
+                class="myForm"></label>
+            </fieldset>
+            <!-- What Size -->
+            <fieldset>
+                <legend> What Size?</legend>
+                <label><input type="radio" name="size" value="Small"> Small</label>
+                <label><input type="radio" name="size" value="Medium"> Medium</label>
+                <label><input type="radio" name="size" value="Large"> Large</label>
+            </fieldset>
+            <!-- H.O.I -->
+            <fieldset>
+                <legend> Hot or Iced?</legend>
+                <label><input type="radio" name="temperature" value="Hot"> Hot</label>
+                <label><input type="radio" name="temperature" value="Iced"> Iced</label>
+            </fieldset>
+
+            <!-- Customize -->
+            <fieldset>
+                <legend> Customize </legend>
+                <label>Prefered Milk <select name="Prefered Milk">
+                        <option value="none">Please Select</option>
+                        <option value="Almond">Almond Milk</option>
+                        <option value="Oat">Oat Milk</option>
+                        <option value="Soy">Soy Milk</option>
+                        <option value="Non-Fat">Non-Fat</option>
+                        <option value="2%">2% Milk</option>
+                        <option value="Whole">Whole Milk</option>
+                        <option value="Breve">Breve</option>
+                    </select></label>
+                <label>Syrups <select name="Syrup">
+                        <option value="none">Please Select</option>
+                        <option value="Caramel">Caramel</option>
+                        <option value="Vanilla">Vanilla</option>
+                        <option value="Lavender">Lavender</option>
+                        <option value="Mocha">Mocha</option>
+                        <option value="Pumpkin Spice">Pumpkin Spice</option>
+                    </select></label>
+                    <label>Customize</label>
+                        <label><input type="checkbox" name="+Shot" value="chosen"> Add Shot of Espresso +$1.00</label>
+                        <label><input type="checkbox" name="Decaf" value="chosen"> Sub Decaf</label>
+                        <label><input type="checkbox" name="+Cinn" value="chosen"> Add Cinnamon Topping</label>
+                        <label><input type="checkbox" name="+Whip" value="chosen"> Add Whipped Cream</label>
+                        <label><input type="checkbox" name="+Carm" value="chosen"> Add Room</label>
+                        <label><input type="checkbox" name="+Sugar" value="chosen"> Add Sugar Packet</label>
+                        <label><input type="checkbox" name="+Cream" value="chosen"> Add Creamer</label>
+                        <label><input type="checkbox" name="Bigger Cup" value="chosen"> Bigger Cup</label>
+                                      
+            </fieldset>
+            <fieldset>
+                <label>Comments<textarea name="comments"></textarea>
+                </label>
+                <input type="submit" value="Send Delivery Request">
+            </fieldset>
+        </form>
+        </div>
+       
+        <div class="old-menu">
+            <img src="images/Vanilla_Lavender.jpeg" alt="Image of our special Vanilla Lavender Latte">
+            <div class="old-menu-content">
+            <h1>Have a favorite from our old menu?</h1>
+            <p>Find it on our old menu by <a href="poe-menu.pdf" target="_blank"> downloading it here</a> if you find something you like we still have these drinks available upon request.<br><br><em>*Please note, specialty drinks have a upcharge of $1.25</em></p>
+
+            </div>
+
+
+        </div>   
+
+        <div class="footer-basic">
+            <footer>
+                <h1>Peace on Earth</h1>
+                <h2>Good Coffee.Good People.</h2>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="index.html">Home</a></li>
+                    <li class="list-inline-item"><a href="menu.html">Menu</a></li>
+                    <li class="list-inline-item"><a href="our-roots.html">About</a></li>
+                    <li class="list-inline-item"><a href="events.html">Events</a></li>
+                    <li class="list-inline-item"><a href="shop.html">Shop</a></li>
+                </ul>
+                <br>
+                <address>
+                    <a href="tel:18015774710">1-801-577-4710</a><br>
+                    35 N 300 W #200,<br>
+                    Provo, UT 84601
+                </address>
+                <p class="copyright">Emma Lam © 2023</p>
+            </footer>
+        </div>
+    </main>
+
+
+
+</body>
+
+</html>
